@@ -1,0 +1,5 @@
+{
+  "url": "https://raw.githubusercontent.com/huggingface/diffusers/v0.35.1/examples/community/pipeline_flux_rf_inversion.py",
+  "sha256": "fc969a64f843ff656c805cf96b4738941e8c4db5dd9fca01a6669b4d33ecf2c1",
+  "diffusers_version": "0.35.1"
+}

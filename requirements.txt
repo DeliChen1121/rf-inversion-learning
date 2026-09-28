@@ -1,0 +1,11 @@
+# Install the CUDA-compatible torch build separately.
+# Original run: Python 3.12.3, torch 2.8.0+cu128.
+diffusers==0.35.1
+transformers==4.44.2
+accelerate==1.10.1
+huggingface_hub==0.34.4
+sentencepiece==0.2.1
+protobuf==5.29.5
+safetensors==0.6.2
+numpy
+Pillow

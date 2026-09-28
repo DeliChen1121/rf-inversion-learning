@@ -1,0 +1,34 @@
+# Model weights, environments, caches: keep them on the compute machine.
+/FLUX.1-dev
+model-cache/
+models/
+.venv/
+venv/
+.cache/
+__pycache__/
+*.py[cod]
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# Generated runs: publish only selected, reviewed copies under assets/.
+results/
+backups/
+*.log
+*.zip
+input_tennis.jpg
+pipeline_flux_rf_inversion.py
+
+# Credentials and temporary download URLs are never research artifacts.
+.env
+.env.*
+*token*
+*manifest*.json
+*probe*.json
+*.pem
+*.key
+.ssh/
+.DS_Store
+.ipynb_checkpoints/
